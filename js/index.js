@@ -35,10 +35,10 @@ function studentGrades(score) {
     gradeOutput.className = "grade-output-success";
   } else if (score >= 40 && score < 49) {
     gradeOutput.innerText = "Your score is D";
-    gradeOutput.className = "grade-output-success";
+    gradeOutput.className = "grade-output-warning";
   } else {
     gradeOutput.innerText = "Your score is E";
-    gradeOutput.className = "grade-output-success";
+    gradeOutput.className = "grade-output-warning";
   }
 
   return grade;
